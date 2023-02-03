@@ -165,7 +165,7 @@ figcaption {
   font-style: normal;
   font-weight: 200;
   text-align: center;
-  text-transform: none;
+  text-transform: uppercase;
 }
 
 .rich-text {
@@ -239,8 +239,9 @@ figcaption {
 .heading-jumbo {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 48px;
+  font-size: 40px;
   line-height: 60px;
+  font-weight: 400;
   text-align: center;
   text-transform: none;
 }
@@ -1838,8 +1839,14 @@ figcaption {
 }
 
 .html-embed {
-  padding-right: 20px;
-  padding-left: 20px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  padding-right: 0px;
+  padding-left: 0px;
+  font-family: Inconsolata, monospace;
+  font-size: 12px;
+  line-height: 24px;
 }
 
 .text-block {
@@ -1848,6 +1855,22 @@ figcaption {
 
 .image-5 {
   background-color: #000;
+}
+
+.link-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-decoration: underline;
+}
+
+.text-block-3 {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 991px) {
@@ -1863,8 +1886,8 @@ figcaption {
   }
 
   .heading-jumbo {
-    font-size: 56px;
-    line-height: 70px;
+    font-size: 40px;
+    line-height: 60px;
   }
 
   .section {
@@ -2343,6 +2366,38 @@ figcaption {
     margin-right: 60px;
     margin-left: 60px;
   }
+
+  .text-block-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .link-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .text-block-3 {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2362,8 +2417,8 @@ figcaption {
   }
 
   .heading-jumbo {
-    font-size: 50px;
-    line-height: 64px;
+    font-size: 40px;
+    line-height: 60px;
   }
 
   .section {
@@ -3177,6 +3232,17 @@ figcaption {
   justify-self: center;
   -ms-grid-row-align: center;
   align-self: center;
+}
+
+#w-node-acb72f21-ec35-43f9-4a2e-606a40066994-b3e059e7 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
 }
 
 #w-node-_26f9f27c-7d51-5f48-426b-e72e3f5de02d-b3e059e7 {
